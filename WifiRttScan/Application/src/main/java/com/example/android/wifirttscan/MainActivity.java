@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements ScanResultClickLi
 
         mWifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
         mWifiScanResultsCallback = new WifiScanResultsCallback();
-        Log.d(TAG, "Test-workflow-msg-commit")
+        Log.d(TAG, "Test-workflow-msg-commit");
     }
 
     @Override
